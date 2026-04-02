@@ -6,7 +6,7 @@ public class DmvSimulator {
         
         System.out.println("Welcome to the DMV!");
         
-        //print random number 1-100
+        //print random number 1-200
         int userNumber = random.nextInt(200) + 1;
         System.out.println("Your number is: " + userNumber);
         
