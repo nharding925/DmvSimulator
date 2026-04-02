@@ -24,7 +24,7 @@ public class DmvSimulator {
         if (miracle == 1) {
             System.out.println("You have all of the required paperwork and you are all set!");
         } else {
-            System.out.println("Sorry, you don't have the required paperwork.");
+            System.out.println("You don't have the required paperwork and you smell bad and you're not funny. muhahahaha");
         }
     }
 }
