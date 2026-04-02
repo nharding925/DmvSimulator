@@ -21,6 +21,7 @@ public class DmvSimulator {
         }
         
         System.out.println("Now serving: " + userNumber);
-        System.out.println("Sorry, you don't have the required paperwork.");
+        // meaner final message for a more realistic simulation
+        System.out.println("Nope — you clearly couldn’t be bothered to bring the required paperwork. Come back when you can follow simple instructions.");
     }
 }
