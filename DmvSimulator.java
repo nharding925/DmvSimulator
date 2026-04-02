@@ -20,8 +20,11 @@ public class DmvSimulator {
             if (current > 200) current = 1;
         }
         
-        System.out.println("Now serving: " + userNumber);
-        // meaner final message for a more realistic simulation
-        System.out.println("Nope — you clearly couldn’t be bothered to bring the required paperwork. Come back when you can follow simple instructions.");
+        int miracle = random.nextInt(100) + 1;
+        if (miracle == 1) {
+            System.out.println("You have all of the required paperwork and you are all set!");
+        } else {
+            System.out.println("Sorry, you don't have the required paperwork.");
+        }
     }
 }
