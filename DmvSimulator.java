@@ -6,18 +6,18 @@ public class DmvSimulator {
         
         System.out.println("Welcome to the DMV!");
         
-        //print random number 1-100
-        int userNumber = random.nextInt(100) + 1;
+        //print random number 1-200
+        int userNumber = random.nextInt(200) + 1;
         System.out.println("Your number is: " + userNumber);
         
         int current = userNumber + 1;
-        if (current > 100) current = 1;
+        if (current > 200) current = 1;
         
         //print all the numbers that arent users
         while (current != userNumber) {
             System.out.println("Now serving: " + current);
             current++;
-            if (current > 100) current = 1;
+            if (current > 200) current = 1;
         }
         
         System.out.println("Now serving: " + userNumber);
